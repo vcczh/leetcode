@@ -5,6 +5,9 @@ import (
 )
 
 func main() {
-	a := [][]int{[]int{0, 0}, []int{0, 1}, []int{1, 0}, []int{0, 2}, []int{2, 0}}
-	fmt.Println(largestTriangleArea(a))
+	// A, K := []int{9, 1, 2, 3, 9}, 3
+
+	A, K := []int{1, 2, 3, 4, 5, 6, 7}, 4
+
+	fmt.Println(largestSumOfAverages(A, K))
 }

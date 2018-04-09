@@ -1,14 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
-
-func main() {
-	a := [][]int{[]int{0, 0}, []int{0, 1}, []int{1, 0}, []int{0, 2}, []int{2, 0}}
-	fmt.Println(largestTriangleArea(a))
-}
 
 func largestTriangleArea(points [][]int) float64 {
 	l, max := len(points), 0.0
